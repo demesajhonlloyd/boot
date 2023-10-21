@@ -4,9 +4,10 @@ height: auto;
 width: 1200px;
 padding: 25px;
 margin:50px;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 h1 {
 font-family: 'Lato', sans-serif;
