@@ -1,7 +1,10 @@
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
 body {
-  margin:0;
+  width: 500px;
+  padding: 25px;
+  margin:100px;
+}
 }
 
 h1 {
