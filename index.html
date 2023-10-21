@@ -8,12 +8,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Jhon Lloyd B. De Mesa</title>
     <style>
-      body {
-      display: flex;
-      flex-direction: column;  
-      justify-content: center;
-      align-items: center;
-      }
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
       body {
       background-image: url("https://tinyurl.com/38ktuvrt");
       background-attachment: fixed;
@@ -68,6 +72,8 @@
     </style>
   </head>
   <body>
+    <div class="centered">
+      <div class+"child">
     <div class="header">
       <div class="inner-header flex">
         <h1 class = "glow">Jhon Lloyd B. De Mesa</h1>
