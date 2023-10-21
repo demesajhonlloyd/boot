@@ -10,12 +10,7 @@ h1 {
   letter-spacing: 2px;
   font-size:48px;
 }
-p {
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 1px;
-  font-size:14px;
-  color: #333333;
-}
+
 
 .header {
   position:relative;
@@ -23,16 +18,10 @@ p {
   background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   color:white;
 }
-.logo {
-  width:50px;
-  fill:white;
-  padding-right:15px;
-  display:inline-block;
-  vertical-align: middle;
-}
+
 
 .inner-header {
-  height:65vh;
+  height:100%;
   width:100%;
   margin: 0;
   padding: 0;
